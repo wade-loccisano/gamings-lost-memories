@@ -2,7 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
-  images: { unoptimized: true },
+  basePath: "/gamings-lost-memories",
+  // images: { unoptimized: true },
 };
 
 export default nextConfig;
