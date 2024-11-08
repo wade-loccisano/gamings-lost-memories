@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Navbar = async () => {
 
-    const buttons: any[] = [
+    const buttons = [
         { name: 'Home', href: '/' },
         { name: 'Episodes', href: '/episodes' },
         { name: 'About', href: '/about' },

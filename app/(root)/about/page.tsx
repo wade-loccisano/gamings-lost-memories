@@ -1,6 +1,7 @@
 export default async function About({ searchParams }: {
     searchParams: Promise<{ query?: string }>
 }) {
+    console.log(searchParams)
     return (
         <>
             <div className="mx-auto pt-8">

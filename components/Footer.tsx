@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
-    const buttons: any[] = [
+    const buttons = [
         { name: 'Episodes', href: '/episodes' },
         { name: 'About', href: '/about' },
         { name: 'Contact', href: '/' },

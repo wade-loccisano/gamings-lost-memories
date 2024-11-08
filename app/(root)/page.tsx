@@ -1,13 +1,13 @@
 import Contact from "@/components/Contact";
 import Splash from "@/components/Splash";
 import TwitterTimeline from "@/components/TwitterTimeline";
-import { SearchParams } from "next/dist/server/request/search-params";
 import Link from "next/link";
 
 export default async function Home({ searchParams }: {
   searchParams: Promise<{ query?: string }>
 }) {
-  const episodes: any[] = [
+  console.log(searchParams)
+  const episodes = [
     {
       name: 'Episode 20: The Nintendo Switch and Nintendo Switch 2',
       href: '/',
@@ -17,17 +17,17 @@ export default async function Home({ searchParams }: {
     {
       name: 'Episode 19: The Nintendo Wii U`s Unique Failure',
       href: '/',
-      description: "BigReed discusses Nintendo's journey into High Definition, unique social features lost to the tides of time, and the ultimate Gimmick that led to Nintendo's Most successful Console of all time with the Nintendo Switch! Buckle Up!",
+      description: "BigReed discusses Nintendo&aposs journey into High Definition, unique social features lost to the tides of time, and the ultimate Gimmick that led to Nintendo's Most successful Console of all time with the Nintendo Switch! Buckle Up!",
       date: 'Jul 16, 2024'
     },
     {
-      name: "Episode 18: Let's Play Enter The Gungeon Live Stream",
+      name: "Episode 18: Let&aposs Play Enter The Gungeon Live Stream",
       href: '/',
       description: "BigReed discusses Nintendo's journey into High Definition, unique social features lost to the tides of time, and the ultimate Gimmick that led to Nintendo's Most successful Console of all time with the Nintendo Switch! Buckle Up!",
       date: 'Jun 18, 2024'
     },
     {
-      name: "Episode 17: Microsoft's Journey to 3rd Party Publisher | Finale",
+      name: "Episode 17: Microsoft&aposs Journey to 3rd Party Publisher | Finale",
       href: '/',
       description: "Join BigReed as he discusses the latter years of the Xbox 360 and the disastrous announcement of the Xbox One and how the Xbox Brand lost its soul. Is it worth owning an Xbox console anymore?",
       date: 'Jun 1, 2024'
