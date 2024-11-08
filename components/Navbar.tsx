@@ -21,7 +21,7 @@ const Navbar = async () => {
                     </Link>
                     <span className="px-4 sm:text-lg md:text-2xl">Gaming&apos;s Lost Memories</span>
                 </div>
-                <div className='flex'>
+                <div className='hidden sm:block flex'>
                     {buttons.map((button, i) => {
                         return (
                             <div key={i} className='pl-4'>
