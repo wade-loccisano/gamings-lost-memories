@@ -17,11 +17,11 @@ const Navbar = async () => {
             <nav className='py-1 flex justify-between items-center'>
                 <div className='flex items-center'>
                     <Link href="/">
-                        <Image src="logo.png" alt="logo" width={125} height={125} priority />
+                        <Image src="/logo.png" alt="logo" width={125} height={125} priority />
                     </Link>
                     <span className="px-4 sm:text-lg md:text-2xl">Gaming&apos;s Lost Memories</span>
                 </div>
-                <div className='hidden sm:block flex'>
+                <div className='hidden sm:block sm:flex'>
                     {buttons.map((button, i) => {
                         return (
                             <div key={i} className='pl-4'>
