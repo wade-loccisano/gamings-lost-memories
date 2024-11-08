@@ -19,7 +19,7 @@ const Navbar = async () => {
                     <Link href="/">
                         <Image src="/logo.png" alt="logo" width={125} height={125} priority />
                     </Link>
-                    <span className="px-4 sm:text-lg md:text-2xl">Gaming's Lost Memories</span>
+                    <span className="px-4 sm:text-lg md:text-2xl">Gaming&apos;s Lost Memories</span>
                 </div>
                 <div className='flex'>
                     {buttons.map((button, i) => {

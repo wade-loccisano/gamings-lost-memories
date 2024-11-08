@@ -19,7 +19,7 @@ const Footer = () => {
             <div className='flex flex-col justify-between lg:flex-row'>
                 <div className='max-w-lg'>
                     <div className='font-bold text-lg py-2'>
-                        Gaming's Lost Memories
+                        Gaming&apos;s Lost Memories
                     </div>
                     <div className='text-sm'>
                         {description}
@@ -42,7 +42,7 @@ const Footer = () => {
                 </nav>
             </div>
             <div className='pt-4 lg:pt-12 text-sm text-slate-400'>
-                © 2024 Gaming's Lost Memories
+                © 2024 Gaming&apos;s Lost Memories
             </div>
         </footer>
     )
