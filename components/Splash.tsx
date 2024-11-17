@@ -9,7 +9,7 @@ const poppins = Poppins({
 const Splash = () => {
 
     return (
-        <section className='relative h-[65vh] bg-[#823229]'>
+        <section className='relative h-[75vh] bg-[#823229]'>
             {/* <div className="max-w-7xl mx-auto"> */}
             {/* <Image
                 src="/landing.jpg"
@@ -34,7 +34,7 @@ const Splash = () => {
                             Join BigReed as he discusses his recent playthrough of Final Fantasy: Crisis Core Reunion and his thoughts on the Final Fantasy 7 universe. What is the legacy of this fan favorite title?
                         </div>
                         <div className="py-6">
-                            <div className='bg-white text-black text-center'>
+                            <div className='bg-white text-black text-center h-[200px]'>
                                 Embedded Listen Widget Goes Here
                             </div>
                         </div>
