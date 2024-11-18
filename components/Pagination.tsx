@@ -1,14 +1,15 @@
 "use client";
 
 import React from 'react'
-import { useRouter } from 'next/navigation';
+// import { useRouter } from 'next/navigation';
 
 const Pagination = ({ currentPage, totalPages }: {
     currentPage: number,
     totalPages: number,
 }) => {
     // const router = useRouter();
-
+    console.log(currentPage);
+    console.log(totalPages);
 
     // const handlePageChange = (newPage: any) => {
     //     // router.push({
