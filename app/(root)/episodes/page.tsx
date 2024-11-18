@@ -1,4 +1,3 @@
-import Pagination from "@/components/Pagination";
 import RSSFeed from "@/public/rss.json";
 import Link from "next/link";
 
@@ -20,11 +19,18 @@ export default async function Episodes({ searchParams }: {
     //         return episodeList;
     //     });
 
-    const EPISODES: any[] = [];
-    RSSFeed.rss.channel.item.forEach((item: any) => {
-        const newItem = {
+    interface EPISODE {
+        id: string
+        title: string,
+        date: string,
+        description: string,
+    }
+
+    const EPISODES: EPISODE[] = [];
+    RSSFeed.rss.channel.item.forEach((item) => {
+        const newItem: EPISODE = {
             id: item?.episode[0].__text,
-            title: item.title[0],
+            title: item.title[0].toString(),
             date: item.pubDate,
             description: item.description.replace(/<\/?p>/g, ""),
         }
@@ -33,9 +39,9 @@ export default async function Episodes({ searchParams }: {
 
     const PATH: string = "/episode";
 
-    const query = (await searchParams).query;
-    const currentPage = query ? parseInt(query) : 1;
-    const itemsPerPage = 25;
+    // const query = (await searchParams).query;
+    // const currentPage = query ? parseInt(query) : 1;
+    // const itemsPerPage = 25;
     // console.log('current page is: ', currentPage);
     // console.log('EPISODES FOUND: ', EPISODES);
 
@@ -54,7 +60,7 @@ export default async function Episodes({ searchParams }: {
                         </input>
                     </div> */}
                     <div>
-                        {EPISODES.map((episode: any) => {
+                        {EPISODES.map((episode) => {
                             return (
                                 <div className="py-2">
                                     <div className="bg-white p-4">
