@@ -81,12 +81,12 @@ export default async function Home({ searchParams }: {
                   );
                 })}
               </div>
-              <div className="py-4 text-center">
-                <button className='rounded-full p-3 bg-[#006237] text-[#fff]'>
-                  <Link href={`/episodes`}>
+              <div className="text-center">
+                <Link href={`/episodes`}>
+                  <button className='rounded-full my-4 p-3 bg-[#006237] text-[#fff]'>
                     {`View All Episodes`}
-                  </Link>
-                </button>
+                  </button>
+                </Link>
               </div>
             </div>
             <div className="pt-2 lg:pt-0 col-span-1">

@@ -1,0 +1,1081 @@
+{
+    "rss": {
+      "channel": {
+        "title": "Gaming's Lost Memories",
+        "link": [
+          "https://rss.com/podcasts/gamingslostmemories",
+          {
+            "_href": "https://media.rss.com/gamingslostmemories/feed.xml",
+            "_rel": "self",
+            "_type": "application/rss+xml",
+            "__prefix": "atom"
+          },
+          {
+            "_rel": "hub",
+            "_href": "https://pubsubhubbub.appspot.com/",
+            "__prefix": "atom"
+          }
+        ],
+        "description": "<p>Gaming's Lost Memories is a video game podcast covering everything from the most niche JRPG to some of gaming's largest video game franchises. BigReed shares his personal memories and stories that have been lost to the tides of time and provides important context to the history of these gaming events. BigReed is a former Video Game reviewer and author and has been gaming for over 30 years. Bring your nostalgia hats!</p><p><a href=\"https://youtube.com/@GamingsLostMemories?si=0y2W2NJWXzo7DOOu\">https://youtube.com/@GamingsLostMemories?si=0y2W2NJWXzo7DOOu</a></p>",
+        "generator": "RSS.com v2.15.1",
+        "lastBuildDate": "Tue, 05 Nov 2024 16:48:52 GMT",
+        "language": "en",
+        "copyright": "Christopher Reed 2022",
+        "image": [
+          {
+            "_href": "https://media.rss.com/gamingslostmemories/20221025_071040_73e2565bb13f613b0cf22a9e8f50166d.jpg",
+            "__prefix": "itunes"
+          },
+          {
+            "url": "https://media.rss.com/gamingslostmemories/20221025_071040_73e2565bb13f613b0cf22a9e8f50166d.jpg",
+            "title": "Gaming's Lost Memories",
+            "link": "https://rss.com/podcasts/gamingslostmemories"
+          }
+        ],
+        "guid": {
+          "__prefix": "podcast",
+          "__text": "1b434750-6ad0-5fcf-bd7f-d717b4567c43"
+        },
+        "locked": {
+          "__prefix": "podcast",
+          "__text": "yes"
+        },
+        "license": {
+          "__prefix": "podcast",
+          "__text": "Christopher Reed 2022"
+        },
+        "author": {
+          "__prefix": "itunes",
+          "__text": "Christopher Reed"
+        },
+        "owner": {
+          "name": {
+            "__prefix": "itunes",
+            "__text": "Christopher Reed"
+          },
+          "__prefix": "itunes"
+        },
+        "explicit": {
+          "__prefix": "itunes",
+          "__text": "false"
+        },
+        "type": {
+          "__prefix": "itunes",
+          "__text": "episodic"
+        },
+        "category": {
+          "category": [
+            {
+              "_text": "Video Games",
+              "__prefix": "itunes"
+            },
+            {
+              "_text": "Games",
+              "__prefix": "itunes"
+            }
+          ],
+          "_text": "Leisure",
+          "__prefix": "itunes"
+        },
+        "medium": {
+          "__prefix": "podcast",
+          "__text": "podcast"
+        },
+        "item": [
+          {
+            "title": [
+              "Episode 21: Final Fantasy 7, Crisis Core, and the Confusing Remake",
+              {
+                "__prefix": "itunes",
+                "__cdata": "Episode 21: Final Fantasy 7, Crisis Core, and the Confusing Remake"
+              }
+            ],
+            "description": "<p>Join BigReed as he discusses his recent playthrough of Final Fantasy: Crisis Core Reunion and his thoughts on the Final Fantasy 7 universe. What is the legacy of this fan favorite title?</p>",
+            "link": "https://rss.com/podcasts/gamingslostmemories/1738164",
+            "enclosure": {
+              "_url": "https://media.rss.com/gamingslostmemories/2024_11_05_16_43_25_771984d4-0577-477a-a722-8339013ef50d.mp3",
+              "_length": "92768174",
+              "_type": "audio/mpeg"
+            },
+            "guid": {
+              "_isPermaLink": "false",
+              "__text": "94e0ef7f-2cfe-4f34-9dd5-1e4ed2724417"
+            },
+            "duration": {
+              "__prefix": "itunes",
+              "__text": "5797"
+            },
+            "episodeType": {
+              "__prefix": "itunes",
+              "__text": "full"
+            },
+            "episode": [
+              {
+                "__prefix": "itunes",
+                "__text": "21"
+              },
+              {
+                "__prefix": "podcast",
+                "__text": "21"
+              }
+            ],
+            "explicit": {
+              "__prefix": "itunes",
+              "__text": "false"
+            },
+            "pubDate": "Tue, 05 Nov 2024 16:48:52 GMT",
+            "image": {
+              "_href": "https://media.rss.com/gamingslostmemories/ep_cover_20241105_041115_854ad8c23875f33fa29565f455bbd0ff.png",
+              "__prefix": "itunes"
+            }
+          },
+          {
+            "title": [
+              "Episode 20: The Nintendo Switch and Nintendo Switch 2",
+              {
+                "__prefix": "itunes",
+                "__cdata": "Episode 20: The Nintendo Switch and Nintendo Switch 2"
+              }
+            ],
+            "description": "<p>Join BigReed as he discusses the 7 years of Nintendo Switch and the exciting Nintendo Switch 2 news!</p>",
+            "link": "https://rss.com/podcasts/gamingslostmemories/1675381",
+            "enclosure": {
+              "_url": "https://media.rss.com/gamingslostmemories/2024_09_27_19_48_25_f0b38c53-50a0-4f92-b3b9-bd9ede58b17d.mp3",
+              "_length": "43597784",
+              "_type": "audio/mpeg"
+            },
+            "guid": {
+              "_isPermaLink": "false",
+              "__text": "bfc83775-2b26-441f-9d23-fe0e4fcf6a9c"
+            },
+            "duration": {
+              "__prefix": "itunes",
+              "__text": "2724"
+            },
+            "episodeType": {
+              "__prefix": "itunes",
+              "__text": "full"
+            },
+            "episode": [
+              {
+                "__prefix": "itunes",
+                "__text": "20"
+              },
+              {
+                "__prefix": "podcast",
+                "__text": "20"
+              }
+            ],
+            "explicit": {
+              "__prefix": "itunes",
+              "__text": "false"
+            },
+            "pubDate": "Fri, 27 Sep 2024 19:49:30 GMT",
+            "image": {
+              "_href": "https://media.rss.com/gamingslostmemories/ep_cover_20240927_070952_81825b950aa123e2cb615d01f4fe14a6.png",
+              "__prefix": "itunes"
+            }
+          },
+          {
+            "title": [
+              "Episode 19: The Nintendo Wii U's Unique Failure",
+              {
+                "__prefix": "itunes",
+                "__cdata": "Episode 19: The Nintendo Wii U's Unique Failure"
+              }
+            ],
+            "description": "<p>BigReed discusses Nintendo's journey into High Definition, unique social features lost to the tides of time, and the ultimate Gimmick that led to Nintendo's Most successful Console of all time with the Nintendo Switch! Buckle Up!</p>",
+            "link": "https://rss.com/podcasts/gamingslostmemories/1570603",
+            "enclosure": {
+              "_url": "https://media.rss.com/gamingslostmemories/2024_07_16_17_48_22_e8eddfed-c4bb-4a0e-917c-4b13a453e7e1.mp3",
+              "_length": "69573111",
+              "_type": "audio/mpeg"
+            },
+            "guid": {
+              "_isPermaLink": "false",
+              "__text": "156999f5-bab9-405d-82e9-9248b64a1133"
+            },
+            "duration": {
+              "__prefix": "itunes",
+              "__text": "4348"
+            },
+            "episodeType": {
+              "__prefix": "itunes",
+              "__text": "full"
+            },
+            "episode": [
+              {
+                "__prefix": "itunes",
+                "__text": "19"
+              },
+              {
+                "__prefix": "podcast",
+                "__text": "19"
+              }
+            ],
+            "explicit": {
+              "__prefix": "itunes",
+              "__text": "false"
+            },
+            "pubDate": "Tue, 16 Jul 2024 17:49:07 GMT",
+            "image": {
+              "_href": "https://media.rss.com/gamingslostmemories/ep_cover_20240716_050727_52ccfd7dfbec3464bd8d7f82225f0e61.png",
+              "__prefix": "itunes"
+            }
+          },
+          {
+            "title": [
+              "Episode 18: Let's Play Enter The Gungeon Live Stream",
+              {
+                "__prefix": "itunes",
+                "__cdata": "Episode 18: Let's Play Enter The Gungeon Live Stream"
+              }
+            ],
+            "description": "<p>In this episode, BigReed tests a 30 minute Twitch live stream podcast!</p><p></p><p>Featuring Enter The Gungeon on Nintendo Switch</p>",
+            "link": "https://rss.com/podcasts/gamingslostmemories/1530098",
+            "enclosure": {
+              "_url": "https://media.rss.com/gamingslostmemories/2024_06_18_17_46_22_681987ef-c7e2-488b-889c-6bbf98b9bf25.mp3",
+              "_length": "30783991",
+              "_type": "audio/mpeg"
+            },
+            "guid": {
+              "_isPermaLink": "false",
+              "__text": "0fa6cd0b-812e-4386-be65-96cb5b24ca57"
+            },
+            "duration": {
+              "__prefix": "itunes",
+              "__text": "1923"
+            },
+            "episodeType": {
+              "__prefix": "itunes",
+              "__text": "full"
+            },
+            "episode": [
+              {
+                "__prefix": "itunes",
+                "__text": "18"
+              },
+              {
+                "__prefix": "podcast",
+                "__text": "18"
+              }
+            ],
+            "explicit": {
+              "__prefix": "itunes",
+              "__text": "false"
+            },
+            "pubDate": "Tue, 18 Jun 2024 17:48:37 GMT",
+            "image": {
+              "_href": "https://media.rss.com/gamingslostmemories/ep_cover_20240618_050643_423eeb6c2a7e875d67aea31928e6df0c.png",
+              "__prefix": "itunes"
+            }
+          },
+          {
+            "title": [
+              "Episode 17: Microsoft's Journey to 3rd Party Publisher | Finale",
+              {
+                "__prefix": "itunes",
+                "__cdata": "Episode 17: Microsoft's Journey to 3rd Party Publisher | Finale"
+              }
+            ],
+            "description": "<p>Join BigReed as he discusses the latter years of the Xbox 360 and the disastrous announcement of the Xbox One and how the Xbox Brand lost its soul. Is it worth owning an Xbox console anymore?</p>",
+            "link": "https://rss.com/podcasts/gamingslostmemories/1474324",
+            "enclosure": {
+              "_url": "https://media.rss.com/gamingslostmemories/2024_05_10_23_09_50_d199384e-c6ba-42cb-9494-080f5271151a.mp3",
+              "_length": "71290506",
+              "_type": "audio/mpeg"
+            },
+            "guid": {
+              "_isPermaLink": "false",
+              "__text": "f5a82f1f-66ad-47e0-934e-a047f7050e35"
+            },
+            "duration": {
+              "__prefix": "itunes",
+              "__text": "4455"
+            },
+            "episodeType": {
+              "__prefix": "itunes",
+              "__text": "full"
+            },
+            "episode": [
+              {
+                "__prefix": "itunes",
+                "__text": "17"
+              },
+              {
+                "__prefix": "podcast",
+                "__text": "17"
+              }
+            ],
+            "explicit": {
+              "__prefix": "itunes",
+              "__text": "false"
+            },
+            "pubDate": "Fri, 10 May 2024 23:10:09 GMT",
+            "image": {
+              "_href": "https://media.rss.com/gamingslostmemories/ep_cover_20240510_110546_0a03fe0dde96fb11df36cc8f23c84e90.png",
+              "__prefix": "itunes"
+            }
+          },
+          {
+            "title": [
+              "Episode 16: Microsoft's Journey to 3rd Party Publisher Part 3 | Top 15 Xbox 360 Games | Top 5 JRPGs",
+              {
+                "__prefix": "itunes",
+                "__cdata": "Episode 16: Microsoft's Journey to 3rd Party Publisher Part 3 | Top 15 Xbox 360 Games | Top 5 JRPGs"
+              }
+            ],
+            "description": "<p>BigReed breaks down his top 5 Jrpgs on the Xbox 360 as well as his Top 15 overall games. Join him as he discusses Microsoft's Golden Era. Did your favorites make the list?</p>",
+            "link": "https://rss.com/podcasts/gamingslostmemories/1435950",
+            "enclosure": {
+              "_url": "https://media.rss.com/gamingslostmemories/2024_04_14_01_07_15_b09a9e92-de14-404a-82b9-31f00de3407d.mp3",
+              "_length": "144363564",
+              "_type": "audio/mpeg"
+            },
+            "guid": {
+              "_isPermaLink": "false",
+              "__text": "bc5bf422-1d0e-4cad-bd99-de28b7358671"
+            },
+            "duration": {
+              "__prefix": "itunes",
+              "__text": "9022"
+            },
+            "episodeType": {
+              "__prefix": "itunes",
+              "__text": "full"
+            },
+            "episode": [
+              {
+                "__prefix": "itunes",
+                "__text": "16"
+              },
+              {
+                "__prefix": "podcast",
+                "__text": "16"
+              }
+            ],
+            "explicit": {
+              "__prefix": "itunes",
+              "__text": "false"
+            },
+            "pubDate": "Sun, 14 Apr 2024 01:07:58 GMT",
+            "image": {
+              "_href": "https://media.rss.com/gamingslostmemories/ep_cover_20240414_010436_180e54321ff48afc11756fc5e7df9951.png",
+              "__prefix": "itunes"
+            }
+          },
+          {
+            "title": [
+              "Episode 15: Microsoft's Journey to 3rd Party Publisher Part 2 | Xbox 360 Launch",
+              {
+                "__prefix": "itunes",
+                "__cdata": "Episode 15: Microsoft's Journey to 3rd Party Publisher Part 2 | Xbox 360 Launch"
+              }
+            ],
+            "description": "<p>Come back to 2005 and join BigReed on his discussion of the Xbox 360, its launch, and the innovative technologies that crafted the 7th Generation of consoles!</p>",
+            "link": "https://rss.com/podcasts/gamingslostmemories/1414943",
+            "enclosure": {
+              "_url": "https://media.rss.com/gamingslostmemories/2024_03_31_14_59_22_26513b20-c3ff-405d-8c09-0e3dbded6f98.mp3",
+              "_length": "57076132",
+              "_type": "audio/mpeg"
+            },
+            "guid": {
+              "_isPermaLink": "false",
+              "__text": "771965fd-f4bb-4c87-acc7-53e7f8a64941"
+            },
+            "duration": {
+              "__prefix": "itunes",
+              "__text": "3567"
+            },
+            "episodeType": {
+              "__prefix": "itunes",
+              "__text": "full"
+            },
+            "episode": [
+              {
+                "__prefix": "itunes",
+                "__text": "15"
+              },
+              {
+                "__prefix": "podcast",
+                "__text": "15"
+              }
+            ],
+            "explicit": {
+              "__prefix": "itunes",
+              "__text": "false"
+            },
+            "pubDate": "Sun, 31 Mar 2024 15:13:48 GMT",
+            "image": {
+              "_href": "https://media.rss.com/gamingslostmemories/ep_cover_20240331_020344_b4522bf6a43a5933e8266ee02947e655.png",
+              "__prefix": "itunes"
+            }
+          },
+          {
+            "title": [
+              "Episode 14: Microsoft's Journey to becoming a 3rd Party Publisher Part 1 | Original Xbox",
+              {
+                "__prefix": "itunes",
+                "__cdata": "Episode 14: Microsoft's Journey to becoming a 3rd Party Publisher Part 1 | Original Xbox"
+              }
+            ],
+            "description": "<p>In this Episode, BigReed discusses the 6th Generation of Video game consoles. This starts a 4 part podcast series about Microsoft's Xbox and their entry into the Video Game industry with their launch of the Original Xbox in 2001. Was the Xbox a success? And is Microsoft slowly transitioning to a 3rd party publisher?</p>",
+            "link": "https://rss.com/podcasts/gamingslostmemories/1372146",
+            "enclosure": {
+              "_url": "https://media.rss.com/gamingslostmemories/2024_03_04_00_49_00_a9ec5056-ca93-43bb-8103-bae924fc8bd4.mp3",
+              "_length": "58840755",
+              "_type": "audio/mpeg"
+            },
+            "guid": {
+              "_isPermaLink": "false",
+              "__text": "fa5b0645-6caf-4fb1-8b26-370e7f7f28d3"
+            },
+            "duration": {
+              "__prefix": "itunes",
+              "__text": "3677"
+            },
+            "episodeType": {
+              "__prefix": "itunes",
+              "__text": "full"
+            },
+            "episode": [
+              {
+                "__prefix": "itunes",
+                "__text": "14"
+              },
+              {
+                "__prefix": "podcast",
+                "__text": "14"
+              }
+            ],
+            "explicit": {
+              "__prefix": "itunes",
+              "__text": "false"
+            },
+            "pubDate": "Mon, 04 Mar 2024 00:50:31 GMT",
+            "image": {
+              "_href": "https://media.rss.com/gamingslostmemories/ep_cover_20240304_120323_ea42751cfa32c967064bb31dbf8dfbb2.png",
+              "__prefix": "itunes"
+            }
+          },
+          {
+            "title": [
+              "Episode 13: Pokémon Scarlet and Violet First Impressions \"A Pleasant Dumpster Fire\"",
+              {
+                "__prefix": "itunes",
+                "__cdata": "Episode 13: Pokémon Scarlet and Violet First Impressions \"A Pleasant Dumpster Fire\""
+              }
+            ],
+            "description": "<p>BigReed gives his first impressions of the new Pokémon titles Scarlet and Violet. A new battle mechanic, open world, and one of the largest video game franchises struggles in development. The new Generation of Pokémon shows how a fun game can also be a technical mess.</p>",
+            "link": "https://rss.com/podcasts/gamingslostmemories/704206",
+            "enclosure": {
+              "_url": "https://media.rss.com/gamingslostmemories/2022_11_21_19_05_42_9f48e728-3546-4180-881a-49637dcea679.mp3",
+              "_length": "64922098",
+              "_type": "audio/mpeg"
+            },
+            "guid": {
+              "_isPermaLink": "false",
+              "__text": "546b0b13-2d5f-4d85-be3a-d0ce6ea920bf"
+            },
+            "duration": {
+              "__prefix": "itunes",
+              "__text": "3079"
+            },
+            "episodeType": {
+              "__prefix": "itunes",
+              "__text": "full"
+            },
+            "episode": [
+              {
+                "__prefix": "itunes",
+                "__text": "13"
+              },
+              {
+                "__prefix": "podcast",
+                "__text": "13"
+              }
+            ],
+            "explicit": {
+              "__prefix": "itunes",
+              "__text": "false"
+            },
+            "pubDate": "Mon, 21 Nov 2022 19:05:58 GMT",
+            "image": {
+              "_href": "https://media.rss.com/gamingslostmemories/ep_cover_20221121_071140_d423110ab412752433167ca9ea1c095f.jpg",
+              "__prefix": "itunes"
+            }
+          },
+          {
+            "title": [
+              "Episode 12: Sonic The Hedgehog, Super Fast Blast Processing, and Is Sonic a Major Franchise anymore?",
+              {
+                "__prefix": "itunes",
+                "__cdata": "Episode 12: Sonic The Hedgehog, Super Fast Blast Processing, and Is Sonic a Major Franchise anymore?"
+              }
+            ],
+            "description": "<p>BigReed breaks down his fond memories of the Sega Genesis console and his choice of Sonic over Mario. He reminisces about the edgy blue Hedgehog and breaks down Sega's struggle in the Video Game Industry and Sonic's current place in the market. Is Sonic a big franchise?</p>",
+            "link": "https://rss.com/podcasts/gamingslostmemories/689218",
+            "enclosure": {
+              "_url": "https://media.rss.com/gamingslostmemories/2022_11_09_17_30_08_b4cbf711-bca2-472c-bffe-2a1f6b46775c.mp3",
+              "_length": "74023151",
+              "_type": "audio/mpeg"
+            },
+            "guid": {
+              "_isPermaLink": "false",
+              "__text": "a360cabd-6177-46cb-ab65-417cbafbedfd"
+            },
+            "duration": {
+              "__prefix": "itunes",
+              "__text": "3528"
+            },
+            "episodeType": {
+              "__prefix": "itunes",
+              "__text": "full"
+            },
+            "episode": [
+              {
+                "__prefix": "itunes",
+                "__text": "12"
+              },
+              {
+                "__prefix": "podcast",
+                "__text": "12"
+              }
+            ],
+            "explicit": {
+              "__prefix": "itunes",
+              "__text": "false"
+            },
+            "pubDate": "Wed, 09 Nov 2022 17:30:47 GMT",
+            "image": {
+              "_href": "https://media.rss.com/gamingslostmemories/ep_cover_20221109_051106_ab3788d6afc3544c1066a775206aca73.jpg",
+              "__prefix": "itunes"
+            }
+          },
+          {
+            "title": [
+              "Episode 11: Animal Crossing",
+              {
+                "__prefix": "itunes",
+                "__cdata": "Episode 11: Animal Crossing"
+              }
+            ],
+            "description": "<p>BigReed shares his early memories of Animal Crossing on the Nintendo Gamecube, the series breakdown, and the twilight experience of Wild World on the Nintendo DS.</p><p>Animal Crossing went from a unique experience with decent sales, to one of Nintendo's all time juggernauts. Also, free NES Roms inside of the game?!</p>",
+            "link": "https://rss.com/podcasts/gamingslostmemories/683239",
+            "enclosure": {
+              "_url": "https://media.rss.com/gamingslostmemories/2022_11_04_19_49_32_05be8026-18fe-40a8-b4fc-be886ddefcad.mp3",
+              "_length": "63097707",
+              "_type": "audio/mpeg"
+            },
+            "guid": {
+              "_isPermaLink": "false",
+              "__text": "39572d94-a822-43af-a1c5-52840109d8f2"
+            },
+            "duration": {
+              "__prefix": "itunes",
+              "__text": "3156"
+            },
+            "episodeType": {
+              "__prefix": "itunes",
+              "__text": "full"
+            },
+            "episode": [
+              {
+                "__prefix": "itunes",
+                "__text": "11"
+              },
+              {
+                "__prefix": "podcast",
+                "__text": "11"
+              }
+            ],
+            "explicit": {
+              "__prefix": "itunes",
+              "__text": "false"
+            },
+            "pubDate": "Fri, 04 Nov 2022 19:49:46 GMT",
+            "image": {
+              "_href": "https://media.rss.com/gamingslostmemories/ep_cover_20221104_071130_f61c53952d31352aba7421700dac737a.jpg",
+              "__prefix": "itunes"
+            }
+          },
+          {
+            "title": [
+              "Episode 10: Video Game Reviews, The Scoring System, and GameInformer's Paper Mario Review Fiasco",
+              {
+                "__prefix": "itunes",
+                "__cdata": "Episode 10: Video Game Reviews, The Scoring System, and GameInformer's Paper Mario Review Fiasco"
+              }
+            ],
+            "description": "<p>Tune-in as BigReed discusses his time writing video game reviews and his breakdown of the scoring system and the massive weight review scores carried in the industry. BigReed also tells the story of GameInformer's bias that came to light during Paper Mario: The Thousand-Year Door review fiasco.</p>",
+            "link": "https://rss.com/podcasts/gamingslostmemories/678470",
+            "enclosure": {
+              "_url": "https://media.rss.com/gamingslostmemories/2022_11_01_09_10_57_165f6232-d4ea-4199-8570-89c7765343b1.mp3",
+              "_length": "67856345",
+              "_type": "audio/mpeg"
+            },
+            "guid": {
+              "_isPermaLink": "false",
+              "__text": "e5e5530b-a59c-4570-9c6c-de593f0e0008"
+            },
+            "duration": {
+              "__prefix": "itunes",
+              "__text": "3411"
+            },
+            "episodeType": {
+              "__prefix": "itunes",
+              "__text": "full"
+            },
+            "episode": [
+              {
+                "__prefix": "itunes",
+                "__text": "10"
+              },
+              {
+                "__prefix": "podcast",
+                "__text": "10"
+              }
+            ],
+            "explicit": {
+              "__prefix": "itunes",
+              "__text": "false"
+            },
+            "pubDate": "Tue, 01 Nov 2022 09:11:54 GMT",
+            "image": {
+              "_href": "https://media.rss.com/gamingslostmemories/ep_cover_20221101_091155_e0406bf9c7ea38b06d5d0c3ba7c23a24.jpg",
+              "__prefix": "itunes"
+            }
+          },
+          {
+            "title": [
+              "Episode 9: Spooky GameCast, The Horror Genre, and the Curious Case of Silicon Knights and Eternal Darkness",
+              {
+                "__prefix": "itunes",
+                "__cdata": "Episode 9: Spooky GameCast, The Horror Genre, and the Curious Case of Silicon Knights and Eternal Darkness"
+              }
+            ],
+            "description": "<p>BigReed discusses his love, and fear, of the Horror Genre. He also goes on a tangent about Eternal Darkness and the downfall of Silicon Knights.</p>",
+            "link": "https://rss.com/podcasts/gamingslostmemories/674562",
+            "enclosure": {
+              "_url": "https://media.rss.com/gamingslostmemories/2022_10_28_18_08_32_6b3ee4e4-6e5e-4654-8760-303e4271423c.mp3",
+              "_length": "60004211",
+              "_type": "audio/mpeg"
+            },
+            "guid": {
+              "_isPermaLink": "false",
+              "__text": "122f5f42-6d66-419e-b776-3d366904f484"
+            },
+            "duration": {
+              "__prefix": "itunes",
+              "__text": "2940"
+            },
+            "episodeType": {
+              "__prefix": "itunes",
+              "__text": "full"
+            },
+            "episode": [
+              {
+                "__prefix": "itunes",
+                "__text": "9"
+              },
+              {
+                "__prefix": "podcast",
+                "__text": "9"
+              }
+            ],
+            "explicit": {
+              "__prefix": "itunes",
+              "__text": "false"
+            },
+            "pubDate": "Fri, 28 Oct 2022 18:09:15 GMT",
+            "image": {
+              "_href": "https://media.rss.com/gamingslostmemories/ep_cover_20221028_061030_fb3e3a55c533dfca3c86d36f298cdd3f.jpg",
+              "__prefix": "itunes"
+            }
+          },
+          {
+            "title": [
+              "Episode 8: Bayonetta 3's Voice Acting Controversy ",
+              {
+                "__prefix": "itunes",
+                "__cdata": "Episode 8: Bayonetta 3's Voice Acting Controversy "
+              }
+            ],
+            "description": "<p>Join BigReed on a quick discussion about Bayonetta 3's recent voice acting drama right before the game's release.</p>",
+            "link": "https://rss.com/podcasts/gamingslostmemories/671670",
+            "enclosure": {
+              "_url": "https://media.rss.com/gamingslostmemories/2022_10_26_14_33_00_781bbe1c-0ee7-424b-9e86-b69bbf2517cc.mp3",
+              "_length": "21433451",
+              "_type": "audio/mpeg"
+            },
+            "guid": {
+              "_isPermaLink": "false",
+              "__text": "8227ebbc-9701-4447-90b3-10b2cb8f2218"
+            },
+            "duration": {
+              "__prefix": "itunes",
+              "__text": "1072"
+            },
+            "episodeType": {
+              "__prefix": "itunes",
+              "__text": "full"
+            },
+            "episode": [
+              {
+                "__prefix": "itunes",
+                "__text": "8"
+              },
+              {
+                "__prefix": "podcast",
+                "__text": "8"
+              }
+            ],
+            "explicit": {
+              "__prefix": "itunes",
+              "__text": "false"
+            },
+            "pubDate": "Wed, 26 Oct 2022 14:33:09 GMT",
+            "image": {
+              "_href": "https://media.rss.com/gamingslostmemories/ep_cover_20221026_021059_296ab37ac49c753e55c81a25be101166.jpg",
+              "__prefix": "itunes"
+            }
+          },
+          {
+            "title": [
+              "Episode 7: Shin Megami Tensei Persona",
+              {
+                "__prefix": "itunes",
+                "__cdata": "Episode 7: Shin Megami Tensei Persona"
+              }
+            ],
+            "description": "<p>Join in as BigReed discusses his personal memories on his discovery of the Persona series and how Atlus has become the gold standard with traditional Japanese RPGs. Although it started off under the SMT umbrella, Persona now stands on its own and Persona 3-5 are some of the best video games out there.</p>",
+            "link": "https://rss.com/podcasts/gamingslostmemories/671661",
+            "enclosure": {
+              "_url": "https://media.rss.com/gamingslostmemories/2022_10_26_14_25_34_d9f2e796-efb1-4796-b241-5f7ec641b413.mp3",
+              "_length": "61974214",
+              "_type": "audio/mpeg"
+            },
+            "guid": {
+              "_isPermaLink": "false",
+              "__text": "5cb4ce14-9640-4826-a5bd-1a8c27dbf8bb"
+            },
+            "duration": {
+              "__prefix": "itunes",
+              "__text": "3040"
+            },
+            "episodeType": {
+              "__prefix": "itunes",
+              "__text": "full"
+            },
+            "episode": [
+              {
+                "__prefix": "itunes",
+                "__text": "7"
+              },
+              {
+                "__prefix": "podcast",
+                "__text": "7"
+              }
+            ],
+            "explicit": {
+              "__prefix": "itunes",
+              "__text": "false"
+            },
+            "pubDate": "Wed, 26 Oct 2022 14:25:43 GMT",
+            "image": {
+              "_href": "https://media.rss.com/gamingslostmemories/ep_cover_20221026_021032_f8c439d2c4320cb50b46ea76c1b7cea0.jpg",
+              "__prefix": "itunes"
+            }
+          },
+          {
+            "title": [
+              "Episode 6: The Used Game Market and the Difficulties Playing Retro Video Games",
+              {
+                "__prefix": "itunes",
+                "__cdata": "Episode 6: The Used Game Market and the Difficulties Playing Retro Video Games"
+              }
+            ],
+            "description": "<p>BigReed discusses his recent trip to a used video game store, his exploded PSP battery, and the difficulties around publishers offering convenient ways to play their retro game catalogue. How can we begin documenting and preserving gaming's incredibly interesting history?</p>",
+            "link": "https://rss.com/podcasts/gamingslostmemories/671651",
+            "enclosure": {
+              "_url": "https://media.rss.com/gamingslostmemories/2022_10_26_14_16_44_b1d8437f-73fa-45c1-bb42-5f2f1fefed23.mp3",
+              "_length": "67245663",
+              "_type": "audio/mpeg"
+            },
+            "guid": {
+              "_isPermaLink": "false",
+              "__text": "863003e9-46ca-47c5-b41a-3b0345159bd0"
+            },
+            "duration": {
+              "__prefix": "itunes",
+              "__text": "3293"
+            },
+            "episodeType": {
+              "__prefix": "itunes",
+              "__text": "full"
+            },
+            "episode": [
+              {
+                "__prefix": "itunes",
+                "__text": "6"
+              },
+              {
+                "__prefix": "podcast",
+                "__text": "6"
+              }
+            ],
+            "explicit": {
+              "__prefix": "itunes",
+              "__text": "false"
+            },
+            "pubDate": "Wed, 26 Oct 2022 14:16:57 GMT",
+            "image": {
+              "_href": "https://media.rss.com/gamingslostmemories/ep_cover_20221026_021042_994ef62b66937ea5c7f84e5e38ddcb24.jpg",
+              "__prefix": "itunes"
+            }
+          },
+          {
+            "title": [
+              "Episode 5: Pokemon Red and Blue and the Explosion of Pokemania!",
+              {
+                "__prefix": "itunes",
+                "__cdata": "Episode 5: Pokemon Red and Blue and the Explosion of Pokemania!"
+              }
+            ],
+            "description": "<p>Tune-in as BigReed discusses his fond memories of Pokemania in the form of collectable cards, games, and other media. #TeamCharizard</p>",
+            "link": "https://rss.com/podcasts/gamingslostmemories/671582",
+            "enclosure": {
+              "_url": "https://media.rss.com/gamingslostmemories/2022_10_26_13_28_40_47894d0f-541d-4a48-aaa5-499d0571bd2a.mp3",
+              "_length": "64507397",
+              "_type": "audio/mpeg"
+            },
+            "guid": {
+              "_isPermaLink": "false",
+              "__text": "1a9c06e6-e13c-4423-b23a-6d3dc28b522e"
+            },
+            "duration": {
+              "__prefix": "itunes",
+              "__text": "3103"
+            },
+            "episodeType": {
+              "__prefix": "itunes",
+              "__text": "full"
+            },
+            "episode": [
+              {
+                "__prefix": "itunes",
+                "__text": "5"
+              },
+              {
+                "__prefix": "podcast",
+                "__text": "5"
+              }
+            ],
+            "explicit": {
+              "__prefix": "itunes",
+              "__text": "false"
+            },
+            "pubDate": "Wed, 26 Oct 2022 13:28:45 GMT",
+            "image": {
+              "_href": "https://media.rss.com/gamingslostmemories/ep_cover_20221026_011038_cd67836286ec5e7f1338c1b907514126.jpg",
+              "__prefix": "itunes"
+            }
+          },
+          {
+            "title": [
+              "Episode 4: Halo Combat Evolved, and Halo on the Nintendo DS!?",
+              {
+                "__prefix": "itunes",
+                "__cdata": "Episode 4: Halo Combat Evolved, and Halo on the Nintendo DS!?"
+              }
+            ],
+            "description": "<p>BigReed discusses his personal memories with the original Halo game, Steve Jobs announcing Halo as a Mac exclusive, and the odd Nintendo DS Halo game that never came to be.</p>",
+            "link": "https://rss.com/podcasts/gamingslostmemories/671404",
+            "enclosure": {
+              "_url": "https://media.rss.com/gamingslostmemories/2022_10_26_10_20_47_51efb734-a9d4-4392-a3a3-7ace1effd265.mp3",
+              "_length": "61976303",
+              "_type": "audio/mpeg"
+            },
+            "guid": {
+              "_isPermaLink": "false",
+              "__text": "878dfb50-d538-480f-8f7b-57cc61d249cd"
+            },
+            "duration": {
+              "__prefix": "itunes",
+              "__text": "3050"
+            },
+            "episodeType": {
+              "__prefix": "itunes",
+              "__text": "full"
+            },
+            "episode": [
+              {
+                "__prefix": "itunes",
+                "__text": "4"
+              },
+              {
+                "__prefix": "podcast",
+                "__text": "4"
+              }
+            ],
+            "explicit": {
+              "__prefix": "itunes",
+              "__text": "false"
+            },
+            "pubDate": "Wed, 26 Oct 2022 10:21:11 GMT",
+            "image": {
+              "_href": "https://media.rss.com/gamingslostmemories/ep_cover_20221026_101045_3c9a9050c7d75c67ba27f6ce1501b2d7.jpg",
+              "__prefix": "itunes"
+            }
+          },
+          {
+            "title": [
+              "Episode 3: Final Fantasy X and the Death of the Turn-Based Battle System",
+              {
+                "__prefix": "itunes",
+                "__cdata": "Episode 3: Final Fantasy X and the Death of the Turn-Based Battle System"
+              }
+            ],
+            "description": "<p>Tune-in and listen as BigReed discusses Final Fantasy X and the last title in the series to feature the turn based battle system of old.</p>",
+            "link": "https://rss.com/podcasts/gamingslostmemories/671401",
+            "enclosure": {
+              "_url": "https://media.rss.com/gamingslostmemories/2022_10_26_10_11_35_e4b83b1e-5ba8-427c-929a-27ed8df7c785.mp3",
+              "_length": "59011317",
+              "_type": "audio/mpeg"
+            },
+            "guid": {
+              "_isPermaLink": "false",
+              "__text": "f509d0da-c6f3-4446-9702-81dfb05f00ae"
+            },
+            "duration": {
+              "__prefix": "itunes",
+              "__text": "2912"
+            },
+            "episodeType": {
+              "__prefix": "itunes",
+              "__text": "full"
+            },
+            "episode": [
+              {
+                "__prefix": "itunes",
+                "__text": "3"
+              },
+              {
+                "__prefix": "podcast",
+                "__text": "3"
+              }
+            ],
+            "explicit": {
+              "__prefix": "itunes",
+              "__text": "false"
+            },
+            "pubDate": "Wed, 26 Oct 2022 10:11:56 GMT",
+            "image": {
+              "_href": "https://media.rss.com/gamingslostmemories/ep_cover_20221026_101033_750a6ba2d4368f1d7dcf452f6ce50b4c.jpg",
+              "__prefix": "itunes"
+            }
+          },
+          {
+            "title": [
+              "Episode 2: Final Fantasy 13 and the Game That Broke My Soul",
+              {
+                "__prefix": "itunes",
+                "__cdata": "Episode 2: Final Fantasy 13 and the Game That Broke My Soul"
+              }
+            ],
+            "description": "<p>Join BigReed as he discusses one of his favorite video game franchises and the massive impact the 13th installment had on him!</p>",
+            "link": "https://rss.com/podcasts/gamingslostmemories/670659",
+            "enclosure": {
+              "_url": "https://media.rss.com/gamingslostmemories/2022_10_25_21_08_33_585e9482-344c-4e3a-84c8-ac48708c18ab.mp3",
+              "_length": "62369389",
+              "_type": "audio/mpeg"
+            },
+            "guid": {
+              "_isPermaLink": "false",
+              "__text": "bd35c64d-9576-4160-9443-7c5144334a56"
+            },
+            "duration": {
+              "__prefix": "itunes",
+              "__text": "3011"
+            },
+            "episodeType": {
+              "__prefix": "itunes",
+              "__text": "full"
+            },
+            "episode": [
+              {
+                "__prefix": "itunes",
+                "__text": "2"
+              },
+              {
+                "__prefix": "podcast",
+                "__text": "2"
+              }
+            ],
+            "explicit": {
+              "__prefix": "itunes",
+              "__text": "false"
+            },
+            "pubDate": "Tue, 25 Oct 2022 21:08:50 GMT",
+            "image": {
+              "_href": "https://media.rss.com/gamingslostmemories/ep_cover_20221025_091031_696847d3080ad9ea6f0ce50df3fba9b7.jpg",
+              "__prefix": "itunes"
+            }
+          },
+          {
+            "title": [
+              "Episode 1: Wind Waker and the Controversial Art Style",
+              {
+                "__prefix": "itunes",
+                "__cdata": "Episode 1: Wind Waker and the Controversial Art Style"
+              }
+            ],
+            "description": "<p>BigReed discusses the gaming climate when Nintendo showcased The Legend of Zelda: Wind Waker's controversial art style to the world. While time has treated the game very well, the launch of Wind Waker was met with a lot of negativity and strong opinions. </p>",
+            "link": "https://rss.com/podcasts/gamingslostmemories/670654",
+            "enclosure": {
+              "_url": "https://media.rss.com/gamingslostmemories/2022_10_25_21_00_04_53689773-dd59-44d8-bf5b-55bae653a8b3.mp3",
+              "_length": "38638741",
+              "_type": "audio/mpeg"
+            },
+            "guid": {
+              "_isPermaLink": "false",
+              "__text": "855d8128-c508-4f88-bdda-e004eeefcad7"
+            },
+            "duration": {
+              "__prefix": "itunes",
+              "__text": "1907"
+            },
+            "episodeType": {
+              "__prefix": "itunes",
+              "__text": "full"
+            },
+            "episode": [
+              {
+                "__prefix": "itunes",
+                "__text": "1"
+              },
+              {
+                "__prefix": "podcast",
+                "__text": "1"
+              }
+            ],
+            "explicit": {
+              "__prefix": "itunes",
+              "__text": "false"
+            },
+            "pubDate": "Tue, 25 Oct 2022 21:00:28 GMT",
+            "image": {
+              "_href": "https://media.rss.com/gamingslostmemories/ep_cover_20221025_091002_98401db1ef74f483f3a25e34f05c19a5.jpg",
+              "__prefix": "itunes"
+            }
+          }
+        ]
+      },
+      "_xmlns:podcast": "https://podcastindex.org/namespace/1.0",
+      "_xmlns:itunes": "http://www.itunes.com/dtds/podcast-1.0.dtd",
+      "_xmlns:content": "http://purl.org/rss/1.0/modules/content/",
+      "_xmlns:atom": "http://www.w3.org/2005/Atom",
+      "_xml:lang": "en",
+      "_version": "2.0"
+    }
+  }
