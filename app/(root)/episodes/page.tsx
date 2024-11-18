@@ -62,7 +62,7 @@ export default async function Episodes({ searchParams }: {
                     <div>
                         {EPISODES.map((episode) => {
                             return (
-                                <div className="py-2">
+                                <div key={episode.title} className="py-2">
                                     <div className="bg-white p-4">
                                         <div className="text-sm text-slate-400">
                                             {episode.date}

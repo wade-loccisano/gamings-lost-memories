@@ -8,8 +8,8 @@ export default async function About({ searchParams }: {
     return (
         <>
             <div className="bg-[#F4F2F1]">
-                <section className="section_container">
-                    <h1 className="md:text-4xl font-bold">
+                <section className="section_container min-h-[65vh]">
+                    <h1 className="pb-2 md:text-4xl font-bold">
                         About
                     </h1>
                     <div className="py-4">

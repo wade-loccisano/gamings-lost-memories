@@ -20,19 +20,21 @@ const Episode = async ({ params }:
     // }
 
     return (
-        <div className="bg-[#F4F2F1]">
-            <section className="section_container">
-                <h1 className="pb-2 md:text-4xl font-bold">
-                    {EPISODE?.title[0].toString()}
-                </h1>
-                <div className='py-2 text-sm text-slate-400'>
-                    {EPISODE?.pubDate}
-                </div>
-                <div className='py-2'>
-                    {EPISODE?.description.replace(/<\/?p>/g, "")}
-                </div>
-            </section>
-        </div>
+        <>
+            <div className="bg-[#F4F2F1]">
+                <section className="section_container min-h-[65vh]">
+                    <h1 className="pb-2 md:text-4xl font-bold">
+                        {EPISODE?.title[0].toString()}
+                    </h1>
+                    <div className='py-2 text-sm text-slate-400'>
+                        {EPISODE?.pubDate}
+                    </div>
+                    <div className='py-2'>
+                        {EPISODE?.description.replace(/<\/?p>/g, "")}
+                    </div>
+                </section>
+            </div>
+        </>
     )
 }
 
