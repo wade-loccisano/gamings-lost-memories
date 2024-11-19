@@ -1,6 +1,16 @@
 import React from 'react'
 import RSSFeed from "@/public/rss.json";
 
+export async function generateStaticParams() {
+    // Fetch the data for all episodes
+    const episodes = RSSFeed.rss.channel.item;
+
+    // Return an array of params for static generation
+    return episodes.map((episode) => ({
+        id: episode.episode[0].__text.toString(),
+    }));
+}
+
 const Episode = async ({ params }:
     { params: Promise<{ id: string }> }
 ) => {
