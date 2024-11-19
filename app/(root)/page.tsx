@@ -3,37 +3,15 @@ import Splash from "@/components/Splash";
 import TwitterTimeline from "@/components/TwitterTimeline";
 import Link from "next/link";
 import Image from "next/image";
+import getEpisodeData from "@/utils/episode-parser";
 
 export default async function Home({ searchParams }: {
   searchParams: Promise<{ query?: string }>
 }) {
   console.log(searchParams)
-  const episodes = [
-    {
-      name: 'The Nintendo Switch and Nintendo Switch 2',
-      href: '/',
-      description: 'Join BigReed as he discusses the 7 years of Nintendo Switch and the exciting Nintendo Switch 2 news!',
-      date: 'Nov 5, 2024'
-    },
-    {
-      name: 'The Nintendo Wii U`s Unique Failure',
-      href: '/',
-      description: "BigReed discusses Nintendo's journey into High Definition, unique social features lost to the tides of time, and the ultimate Gimmick that led to Nintendo's Most successful Console of all time with the Nintendo Switch! Buckle Up!",
-      date: 'Jul 16, 2024'
-    },
-    {
-      name: "Let's Play Enter The Gungeon Live Stream",
-      href: '/',
-      description: "BigReed discusses Nintendo's journey into High Definition, unique social features lost to the tides of time, and the ultimate Gimmick that led to Nintendo's Most successful Console of all time with the Nintendo Switch! Buckle Up!",
-      date: 'Jun 18, 2024'
-    },
-    {
-      name: "Microsoft's Journey to 3rd Party Publisher | Finale",
-      href: '/',
-      description: "Join BigReed as he discusses the latter years of the Xbox 360 and the disastrous announcement of the Xbox One and how the Xbox Brand lost its soul. Is it worth owning an Xbox console anymore?",
-      date: 'Jun 1, 2024'
-    },
-  ];
+
+  const episodeData = getEpisodeData();
+  const episodes = episodeData.slice(0, 5);
 
   return (
     <>
@@ -56,7 +34,7 @@ export default async function Home({ searchParams }: {
                   return (
                     <div key={i} className='flex flex-col md:flex-row border rounded-lg w-full my-4 bg-[#fff] items-center'>
                       <div className="min-w-[200px] px-2">
-                        <Link href="/">
+                        <Link href={`/episode/${episode.id}`}>
                           <Image
                             className="rounded-lg"
                             src="logo.png" alt="logo" width={200} height={200} priority objectFit="cover" />
@@ -67,11 +45,11 @@ export default async function Home({ searchParams }: {
                           {episode.date}
                         </div>
                         <div className="md:text-lg font-bold">
-                          <button className="">
-                            <Link href="/">
-                              {episode.name}
-                            </Link>
-                          </button>
+                          <Link href={`/episode/${episode.id}`}>
+                            <button className="">
+                              {episode.title}
+                            </button>
+                          </Link>
                         </div>
                         <div className="pt-2">
                           {episode.description}

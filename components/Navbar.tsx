@@ -19,7 +19,9 @@ const Navbar = async () => {
                     <Link href="/">
                         <Image src="logo.png" alt="logo" width={100} height={100} priority />
                     </Link>
-                    <span className="px-4 sm:text-lg md:text-2xl">Gaming&apos;s Lost Memories</span>
+                    <Link href="/">
+                        <span className="px-4 sm:text-lg md:text-2xl">Gaming&apos;s Lost Memories</span>
+                    </Link>
                 </div>
                 <div className='hidden sm:block sm:flex'>
                     {buttons.map((button, i) => {
