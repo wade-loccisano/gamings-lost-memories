@@ -8,6 +8,7 @@ import getEpisodeData from "@/utils/episode-parser";
 export default async function Home({ searchParams }: {
   searchParams: Promise<{ query?: string }>
 }) {
+  console.log(searchParams)
   const episodeData = getEpisodeData();
   const episodes = episodeData.slice(0, 5);
 

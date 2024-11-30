@@ -2,7 +2,6 @@ import React from 'react'
 import { Poppins } from 'next/font/google';
 import Player from './Player';
 import { EPISODE } from '@/utils/episode-parser';
-import Image from 'next/image';
 
 const poppins = Poppins({
     weight: '400',
