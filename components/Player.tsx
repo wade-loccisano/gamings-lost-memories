@@ -30,7 +30,7 @@ const Player = ({ episode }: {
             <div className="px-2 flex">
                 <Image
                     className="min-w-[200px] rounded-lg hidden md:block"
-                    src="/logo.png" alt="logo" width={200} height={200} priority objectFit="cover"
+                    src="logo.png" alt="logo" width={200} height={200} priority objectFit="cover"
                 />
                 <div>
                     <div className='flex p-4'>
@@ -40,11 +40,11 @@ const Player = ({ episode }: {
                             </svg> */}
                             {isPlaying ? <Image
                                 className=""
-                                src="/pause.png" alt="pause" width={50} height={50} priority
+                                src="pause.png" alt="pause" width={50} height={50} priority
                             /> :
                                 <Image
                                     className="ml-1"
-                                    src="/play.png" alt="play" width={50} height={50} priority
+                                    src="play.png" alt="play" width={50} height={50} priority
                                 />}
                         </button>
                         <div className='m-2 flex'>
