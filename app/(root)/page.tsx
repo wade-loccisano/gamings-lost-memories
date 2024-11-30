@@ -8,14 +8,14 @@ import getEpisodeData from "@/utils/episode-parser";
 export default async function Home({ searchParams }: {
   searchParams: Promise<{ query?: string }>
 }) {
-  console.log(searchParams)
-
   const episodeData = getEpisodeData();
   const episodes = episodeData.slice(0, 5);
 
   return (
     <>
-      <Splash></Splash>
+      <Splash
+        latestEpisode={episodes[0]}
+      ></Splash>
       <div className="bg-[#F4F2F1]">
 
         <section className="section_container">
@@ -34,10 +34,10 @@ export default async function Home({ searchParams }: {
                   return (
                     <div key={i} className='flex flex-col md:flex-row border rounded-lg w-full my-4 bg-[#fff] items-center'>
                       <div className="min-w-[200px] px-2">
-                        <Link href={`/episode/${episode.id}`}>
+                        <Link href={`/episode/${episode.slug}`}>
                           <Image
                             className="rounded-lg"
-                            src="logo.png" alt="logo" width={200} height={200} priority objectFit="cover" />
+                            src="/logo.png" alt="logo" width={200} height={200} priority objectFit="cover" />
                         </Link>
                       </div>
                       <div className="flex flex-col px-2 py-4">
@@ -45,7 +45,7 @@ export default async function Home({ searchParams }: {
                           {episode.date}
                         </div>
                         <div className="md:text-lg font-bold">
-                          <Link href={`/episode/${episode.id}`}>
+                          <Link href={`/episode/${episode.slug}`}>
                             <button className="">
                               {episode.title}
                             </button>
