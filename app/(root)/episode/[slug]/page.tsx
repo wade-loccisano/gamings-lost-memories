@@ -1,5 +1,6 @@
 import React from 'react'
 import getEpisodeData from '@/utils/episode-parser';
+import Player from '@/components/Player';
 
 export async function generateStaticParams() {
     const episodes = getEpisodeData();
@@ -25,6 +26,11 @@ const Episode = async ({ params }:
                     </h1>
                     <div className='py-2 text-sm text-slate-400'>
                         {EPISODE?.date}
+                    </div>
+                    <div>
+                        <Player
+                            episode={EPISODE}
+                        ></Player>
                     </div>
                     <div className='py-2'>
                         {EPISODE?.description.replace(/<\/?p>/g, "")}

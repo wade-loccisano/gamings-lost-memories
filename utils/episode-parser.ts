@@ -16,11 +16,10 @@ function formatTitle(input: string): string {
     return formattedTitle;
 }
 
-function formatSeconds(seconds: string): string {
-    const parsedSeconds: number = parseInt(seconds);
-    const hours = Math.floor(parsedSeconds / 3600);
-    const minutes = Math.floor((parsedSeconds % 3600) / 60);
-    const remainingSeconds = parsedSeconds % 60;
+export function formatSeconds(seconds: number): string {
+    const hours = Math.floor(seconds / 3600);
+    const minutes = Math.floor((seconds % 3600) / 60);
+    const remainingSeconds = seconds % 60;
 
     return [
         hours.toString().padStart(2, '0'),
@@ -36,7 +35,7 @@ export interface EPISODE {
     date: string,
     description: string,
     src: string,
-    length: string,
+    length: number,
 }
 
 export default function getEpisodeData(slug = ""): EPISODE[] {
@@ -50,7 +49,7 @@ export default function getEpisodeData(slug = ""): EPISODE[] {
             date: episode.pubDate,
             description: episode.description.replace(/<\/?p>/g, ""),
             src: episode.enclosure._url,
-            length: formatSeconds(episode.duration.__text),
+            length: parseInt(episode.duration.__text),
         }
         
         episodeMap.set(newEpisode.slug, newEpisode);
