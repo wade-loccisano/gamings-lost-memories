@@ -50,7 +50,7 @@ const Player = ({ episode }: {
                         <div className='m-2 flex'>
                             <div>
                                 <div className='text-sm'>
-                                    Gaming's Lost Memories
+                                    Gaming&apos;s Lost Memories
                                 </div>
                                 <div className='text-lg font-bold'>
                                     {episode.title}
