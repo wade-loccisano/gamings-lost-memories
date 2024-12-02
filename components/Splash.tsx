@@ -2,6 +2,8 @@ import React from 'react'
 import { Poppins } from 'next/font/google';
 import Player from './Player';
 import { EPISODE } from '@/utils/episode-parser';
+import Links from './Links';
+import Image from 'next/image';
 
 const poppins = Poppins({
     weight: '400',
@@ -15,14 +17,14 @@ const Splash = ({ latestEpisode }: {
     return (
         <section className='relative h-[75vh] bg-[#823229]'>
             {/* <div className="max-w-7xl mx-auto"> */}
-            {/* <Image
-                className='py-10 shadow-lg'
-                src="/landing.jpg"
+            <Image
+                className='py-2 shadow-lg'
+                src="/wallpaper.jpg"
                 alt="Background Image"
                 fill
                 objectFit="cover"
                 priority={true}
-            /> */}
+            />
             <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
                 <div className="section_container">
                     <div className='text-white'>
@@ -41,6 +43,9 @@ const Splash = ({ latestEpisode }: {
                             <Player
                                 episode={latestEpisode}
                             ></Player>
+                        </div>
+                        <div className=''>
+                            <Links></Links>
                         </div>
                     </div>
                 </div>

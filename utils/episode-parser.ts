@@ -11,8 +11,14 @@ function formatTitle(input: string): string {
     const withoutPipes = withoutApostrophes.replace(/[|]/g, '');
     // Remove all question marks
     const withoutQuestionMarks = withoutPipes.replace(/[?]/g, '');
+    // Remove all quotes
+    const withoutQuotes = withoutQuestionMarks.replace(/"/g, '');   
+    // Remove all é
+    const withoutFancyE = withoutQuotes.replace(/é/g, 'e');
     // Replace spaces with dashes
-    const formattedTitle = withoutQuestionMarks.replace(/\s+/g, '-');
+    const formattedTitle = withoutFancyE.replace(/\s+/g, '-');
+
+
     return formattedTitle;
 }
 
