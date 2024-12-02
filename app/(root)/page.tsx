@@ -2,7 +2,6 @@ import Contact from "@/components/Contact";
 import Splash from "@/components/Splash";
 import TwitterTimeline from "@/components/TwitterTimeline";
 import Link from "next/link";
-import Image from "next/image";
 import getEpisodeData from "@/utils/episode-parser";
 import EpisodeCard from "@/components/EpisodeCard";
 
@@ -32,7 +31,7 @@ export default async function Home({ searchParams }: {
                 </button>
               </div>
               <div className='flex flex-col'>
-                {episodes.map((episode, i) => (
+                {episodes.map((episode) => (
                   <EpisodeCard
                     key={episode.id}
                     episode={episode}

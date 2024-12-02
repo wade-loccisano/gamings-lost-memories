@@ -17,7 +17,7 @@ const Navbar = async () => {
                 <Link href="/">
                     <div className='flex items-center'>
                         <Image
-                            src="/logo.png"
+                            src="logo.png"
                             alt="logo"
                             width={96}
                             height={96}

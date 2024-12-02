@@ -19,7 +19,7 @@ const Splash = ({ latestEpisode }: {
             {/* <div className="max-w-7xl mx-auto"> */}
             <Image
                 className='py-2 shadow-lg'
-                src="/wallpaper.jpg"
+                src="wallpaper.jpg"
                 alt="Background Image"
                 fill
                 objectFit="cover"

@@ -24,19 +24,19 @@ const Player = ({ episode }: {
         }
     };
 
-    const handleSeek = (e: any) => {
-        // const rect = e.target.getBoundingClientRect();
-        // const clickX = e.clientX - rect.left;
-        // const newTime = (clickX / rect.width) * episode.length;
+    // const handleSeek = (e: any) => {
+    //     const rect = e.target.getBoundingClientRect();
+    //     const clickX = e.clientX - rect.left;
+    //     const newTime = (clickX / rect.width) * episode.length;
 
-        // if (audioRef.current) {
-        //     audioRef.current.currentTime = newTime;
-        //     if (!isPlaying) {
-        //         togglePlay()
-        //     }
-        // }
-        console.log(e)
-    }
+    //     if (audioRef.current) {
+    //         audioRef.current.currentTime = newTime;
+    //         if (!isPlaying) {
+    //             togglePlay()
+    //         }
+    //     }
+    //     console.log(e)
+    // }
 
     const getPlayerProgress = () => {
         if (currentTime === episode.length) {
@@ -64,7 +64,7 @@ const Player = ({ episode }: {
     useEffect(() => {
         setFormattedTime(formatSeconds(Math.floor(currentTime)));
         setPlayerProgress(getPlayerProgress())
-    }, [currentTime]);
+    }, [currentTime, getPlayerProgress]);
 
 
     return (
@@ -77,7 +77,7 @@ const Player = ({ episode }: {
             <div className="px-2 flex">
                 <Image
                     className="min-w-[200px] rounded-lg hidden lg:block"
-                    src="/logo.png" alt="logo" width={200} height={200} priority objectFit="cover"
+                    src="logo.png" alt="logo" width={200} height={200} priority objectFit="cover"
                 />
                 <div className='w-full p-4'>
                     <div className='flex flex-col md:flex-row md:justify-between'>
@@ -85,11 +85,11 @@ const Player = ({ episode }: {
                             <button className="hover:opacity-65" onClick={togglePlay}>
                                 {isPlaying ? <Image
                                     className=""
-                                    src="/red_pause_button.png" alt="pause" width={50} height={50} priority
+                                    src="red_pause_button.png" alt="pause" width={50} height={50} priority
                                 /> :
                                     <Image
                                         className="min-h-[50px] min-w-[50px]"
-                                        src="/playbutton.png" alt="play" width={50} height={50} priority
+                                        src="playbutton.png" alt="play" width={50} height={50} priority
                                     />}
                             </button>
                             <div className='m-2'>
@@ -110,7 +110,7 @@ const Player = ({ episode }: {
                     </div>
                     <div
                         className='mx-2 my-2 md:my-8 bg-slate-400 h-6 cursor-pointer'
-                        onClick={handleSeek}
+                    // onClick={handleSeek}
                     >
                         <div
                             className={`bg-green-800 h-6`}
