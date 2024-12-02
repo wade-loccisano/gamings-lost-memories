@@ -5,31 +5,31 @@ import Image from 'next/image'
 const Links = () => {
     const links = [
         {
-            icon: "/rss-icon.png",
+            icon: "rss-icon.png",
             href: "https://rss.com/podcasts/gamingslostmemories/"
         },
         {
-            icon: "/appleIcon.png",
+            icon: "appleIcon.png",
             href: "https://podcasts.apple.com/us/podcast/gamings-lost-memories/id1651491957"
         },
         {
-            icon: "/spotify-icon.png",
+            icon: "spotify-icon.png",
             href: "https://open.spotify.com/show/1YJ3UnbNY9miy5eF3CoalM"
         },
         {
-            icon: "/amazonmusic-icon.png",
+            icon: "amazonmusic-icon.png",
             href: "https://music.amazon.com/podcasts/cf5a0333-52d3-4b99-8d7b-3b9b61a230ec/gaming's-lost-memories"
         },
         {
-            icon: "/iheartradio-icon.png",
+            icon: "iheartradio-icon.png",
             href: "https://www.iheart.com/podcast/269-gamings-lost-memories-103785026/"
         },
         {
-            icon: "/castbox-icon.png",
+            icon: "castbox-icon.png",
             href: "https://castbox.fm/channel/Gaming's-Lost-Memories-id5196606"
         },
         {
-            icon: "/podcastaddict-icon.png",
+            icon: "podcastaddict-icon.png",
             href: "https://podcastaddict.com/podcast/gaming-s-lost-memories/4131589"
         },
     ]
