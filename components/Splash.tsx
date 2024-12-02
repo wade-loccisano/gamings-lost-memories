@@ -15,7 +15,7 @@ const Splash = ({ latestEpisode }: {
 }) => {
 
     return (
-        <section className='relative h-[75vh] bg-[#823229]'>
+        <section className='relative h-[100vh] sm:h-[75vh] bg-[#823229]'>
             {/* <div className="max-w-7xl mx-auto"> */}
             <Image
                 className='py-2 shadow-lg'
@@ -36,7 +36,7 @@ const Splash = ({ latestEpisode }: {
                                 {latestEpisode.title}
                             </span>
                         </div>
-                        <div className='text-xs sm:text-base pb-2'>
+                        <div className='text-sm sm:text-base pb-2'>
                             {latestEpisode.description}
                         </div>
                         <div className="py-6">

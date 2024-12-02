@@ -16,8 +16,15 @@ const Navbar = async () => {
             <nav className='py-1 flex justify-between items-center'>
                 <Link href="/">
                     <div className='flex items-center'>
-                        <Image src="/logo.png" alt="logo" width={100} height={100} priority />
-                        <span className="px-4 sm:text-lg md:text-2xl">Gaming&apos;s Lost Memories</span>
+                        <Image
+                            src="/logo.png"
+                            alt="logo"
+                            width={96}
+                            height={96}
+                            priority
+                            className='h-12 w-12 md:h-24 md:w-24'
+                        />
+                        <span className="px-4 text-lg md:text-2xl">Gaming&apos;s Lost Memories</span>
                     </div>
                 </Link>
                 <div className='hidden sm:block sm:flex'>

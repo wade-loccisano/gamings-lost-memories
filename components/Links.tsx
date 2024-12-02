@@ -46,6 +46,7 @@ const Links = () => {
                                         className=''
                                         href={link.href}
                                         target='_blank'
+                                        key={link.href}
                                     >
                                         <button className="p-2 transform transition-transform duration-300 hover:translate-y-1 hover:scale-105">
                                             <Image
