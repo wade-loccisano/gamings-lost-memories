@@ -8,31 +8,32 @@ const Navbar = async () => {
         { name: 'Home', href: '/' },
         { name: 'Episodes', href: '/episodes' },
         { name: 'About', href: '/about' },
-        { name: 'Patreon', href: '/' },
+        // { name: 'Patreon', href: '/' },
     ];
 
     return (
         <header className="section_container !py-0">
-            {/* <header className="max-w-6xl mx-auto"> */}
             <nav className='py-1 flex justify-between items-center'>
-                <div className='flex items-center'>
-                    <Link href="/">
-                        <Image src="logo.png" alt="logo" width={100} height={100} priority />
-                    </Link>
-                    <Link href="/">
+                <Link href="/">
+                    <div className='flex items-center'>
+                        <Image src="/logo.png" alt="logo" width={100} height={100} priority />
                         <span className="px-4 sm:text-lg md:text-2xl">Gaming&apos;s Lost Memories</span>
-                    </Link>
-                </div>
+                    </div>
+                </Link>
                 <div className='hidden sm:block sm:flex'>
                     {buttons.map((button, i) => {
                         return (
-                            <div key={i} className='pl-4'>
-                                <button className='text-sm md:text-lg'>
-                                    <Link href={`${button.href}`}>
+                            <Link
+                                key={i}
+                                href={`${button.href}`}
+                                className=''
+                            >
+                                <div className='pl-4 '>
+                                    <button className='text-sm md:text-lg hover:underline'>
                                         {button.name}
-                                    </Link>
-                                </button>
-                            </div>
+                                    </button>
+                                </div>
+                            </Link>
                         )
                     })}
                 </div>

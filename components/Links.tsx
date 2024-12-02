@@ -5,6 +5,10 @@ import Image from 'next/image'
 const Links = () => {
     const links = [
         {
+            icon: "/rss-icon.png",
+            href: "https://rss.com/podcasts/gamingslostmemories/"
+        },
+        {
             icon: "/appleIcon.png",
             href: "https://podcasts.apple.com/us/podcast/gamings-lost-memories/id1651491957"
         },

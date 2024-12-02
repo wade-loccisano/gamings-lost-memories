@@ -1,6 +1,8 @@
 import React from 'react'
 import getEpisodeData from '@/utils/episode-parser';
 import Player from '@/components/Player';
+import EpisodeCallToAction from '@/components/EpisodeCallToAction';
+import Links from '@/components/Links';
 
 export async function generateStaticParams() {
     const episodes = getEpisodeData();
@@ -32,8 +34,14 @@ const Episode = async ({ params }:
                             episode={EPISODE}
                         ></Player>
                     </div>
-                    <div className='py-2'>
+                    <div>
+                        <Links></Links>
+                    </div>
+                    <div className='py-2 text-lg'>
                         {EPISODE?.description.replace(/<\/?p>/g, "")}
+                    </div>
+                    <div className='py-8'>
+                        <EpisodeCallToAction></EpisodeCallToAction>
                     </div>
                 </section>
             </div>
