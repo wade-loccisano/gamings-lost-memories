@@ -84,7 +84,7 @@ const Player = ({ episode }: {
                         <div className='flex'>
                             <button className="hover:opacity-65" onClick={togglePlay}>
                                 {isPlaying ? <Image
-                                    className=""
+                                    className="min-h-[50px] min-w-[50px]"
                                     src="red_pause_button.png" alt="pause" width={50} height={50} priority
                                 /> :
                                     <Image
