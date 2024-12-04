@@ -24,19 +24,18 @@ const Player = ({ episode }: {
         }
     };
 
-    // const handleSeek = (e: any) => {
-    //     const rect = e.target.getBoundingClientRect();
-    //     const clickX = e.clientX - rect.left;
-    //     const newTime = (clickX / rect.width) * episode.length;
+    const handleSeek = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+        const rect = (e.target as HTMLDivElement).getBoundingClientRect();
+        const clickX = e.clientX - rect.left;
+        const newTime = (clickX / rect.width) * episode.length;
 
-    //     if (audioRef.current) {
-    //         audioRef.current.currentTime = newTime;
-    //         if (!isPlaying) {
-    //             togglePlay()
-    //         }
-    //     }
-    //     console.log(e)
-    // }
+        if (audioRef.current) {
+            audioRef.current.currentTime = newTime;
+            if (!isPlaying) {
+                togglePlay()
+            }
+        }
+    }
 
     const getPlayerProgress = () => {
         if (currentTime === episode.length) {
@@ -77,7 +76,7 @@ const Player = ({ episode }: {
             <div className="px-2 flex">
                 <Image
                     className="min-w-[200px] rounded-lg hidden lg:block"
-                    src="logo.png" alt="logo" width={200} height={200} priority objectFit="cover"
+                    src="logo.png" alt="logo" width={200} height={200} priority
                 />
                 <div className='w-full p-4'>
                     <div className='flex flex-col md:flex-row md:justify-between'>
@@ -95,7 +94,6 @@ const Player = ({ episode }: {
                             <div className='m-2'>
                                 <div>
                                     <div className='text-sm'>
-                                        {/* Gaming&apos;s Lost Memories */}
                                         {NAME}
                                     </div>
                                     <div className='text-base md:text-lg font-bold'>
@@ -109,12 +107,14 @@ const Player = ({ episode }: {
                         </div>
                     </div>
                     <div
-                        className='mx-2 my-2 md:my-8 bg-slate-400 h-6 cursor-pointer'
-                    // onClick={handleSeek}
+                        className='mx-2 my-2 md:my-8 h-6 cursor-pointer'
+                        onClick={handleSeek}
+                        style={{
+                            background: playerProgress > 0
+                                ? `linear-gradient(to right, #2f855a ${playerProgress}%, #94a3b8 ${playerProgress}%)`
+                                : '#2f855a',
+                        }}
                     >
-                        <div
-                            className={`bg-green-800 h-6`}
-                            style={{ width: `${playerProgress}%` }}></div>
                     </div>
                 </div>
             </div>

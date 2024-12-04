@@ -41,6 +41,9 @@ const Episode = async ({ params }:
                         <div className='py-2 text-lg'>
                             {EPISODE?.description.replace(/<\/?p>/g, "")}
                         </div>
+                        {/* <div>
+                            Episode Scroller
+                        </div> */}
                         <div className='py-8'>
                             <EpisodeCallToAction></EpisodeCallToAction>
                         </div>

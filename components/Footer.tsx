@@ -5,8 +5,8 @@ const Footer = () => {
     const buttons = [
         { name: 'Episodes', href: '/episodes' },
         { name: 'About', href: '/about' },
-        { name: 'Contact', href: '/' },
-        { name: 'Patreon', href: '/' },
+        // { name: 'Contact', href: '/' },
+        // { name: 'Patreon', href: '/' },
     ];
 
     const description: string = `

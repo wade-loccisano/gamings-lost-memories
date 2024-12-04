@@ -50,13 +50,12 @@ const Links = () => {
                                     >
                                         <button className="p-2 transform transition-transform duration-300 hover:translate-y-1 hover:scale-105">
                                             <Image
-                                                className=""
+                                                className="h-[35px] w-[35px] md:h-[50px] md:w-[50px]"
                                                 src={link.icon}
                                                 alt="logo"
                                                 width={50}
                                                 height={50}
                                                 priority
-                                                objectFit="cover"
                                             />
                                         </button>
                                     </Link>
