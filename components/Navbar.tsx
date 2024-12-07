@@ -1,8 +1,9 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const Navbar = async () => {
+const Navbar = () => {
 
     const buttons = [
         { name: 'Home', href: '/' },
@@ -10,6 +11,10 @@ const Navbar = async () => {
         { name: 'About', href: '/about' },
         // { name: 'Patreon', href: '/' },
     ];
+
+    const handleClick = () => {
+        console.log('click the button!')
+    };
 
     return (
         <header className="section_container !py-0">
@@ -27,7 +32,20 @@ const Navbar = async () => {
                         <span className="px-4 text-lg md:text-2xl">Gaming&apos;s Lost Memories</span>
                     </div>
                 </Link>
-                <div className='hidden sm:block sm:flex'>
+                <div className='block lg:hidden'>
+                    <button onClick={handleClick}>
+                        <Image
+                            className="h-[35px] w-[35px]"
+                            src="menu_24dp_000000_FILL0_wght400_GRAD0_opsz24.png"
+                            alt="logo"
+                            width={50}
+                            height={50}
+                            priority
+                        >
+                        </Image>
+                    </button>
+                </div>
+                <div className='hidden lg:block lg:flex'>
                     {buttons.map((button, i) => {
                         return (
                             <Link
@@ -45,7 +63,7 @@ const Navbar = async () => {
                     })}
                 </div>
             </nav>
-        </header>
+        </header >
     )
 }
 
