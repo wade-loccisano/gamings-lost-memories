@@ -1,4 +1,4 @@
-import RSSFeed from "@/public/rss.json";
+import RSSFeed from "@/public/rss2.json";
 
 function formatTitle(input: string): string {
     // Remove "Episode X: " using regex
@@ -17,7 +17,6 @@ function formatTitle(input: string): string {
     const withoutFancyE = withoutQuotes.replace(/é/g, 'e');
     // Replace spaces with dashes
     const formattedTitle = withoutFancyE.replace(/\s+/g, '-');
-
 
     return formattedTitle;
 }
@@ -50,10 +49,10 @@ export default function getEpisodeData(slug = ""): EPISODE[] {
     episodes.forEach((episode) => {
         const newEpisode: EPISODE = {
             id: episode?.episode[0].__text,
-            title: episode.title[0].toString(),
-            slug: formatTitle(episode.title[0].toString()),
+            title: episode.title[0].__cdata.toString(),
+            slug: formatTitle(episode.title[0].__cdata.toString()),
             date: episode.pubDate,
-            description: episode.description.replace(/<\/?p>/g, ""),
+            description: episode.description.__cdata.replace(/<\/?p>/g, ""),
             src: episode.enclosure._url,
             length: parseInt(episode.duration.__text),
         }

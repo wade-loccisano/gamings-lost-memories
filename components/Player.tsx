@@ -67,7 +67,7 @@ const Player = ({ episode }: {
 
 
     return (
-        <div className='bg-white text-black'>
+        <div className='bg-white text-black rounded'>
             <audio
                 ref={audioRef}
                 src={episode.src}
@@ -107,7 +107,7 @@ const Player = ({ episode }: {
                         </div>
                     </div>
                     <div
-                        className='mx-2 my-2 md:my-8 h-6 cursor-pointer'
+                        className='mx-2 my-2 md:my-6 h-6 cursor-pointer'
                         onClick={handleSeek}
                         style={{
                             background: playerProgress > 0

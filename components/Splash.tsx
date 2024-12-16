@@ -22,7 +22,6 @@ const Splash = ({ latestEpisode }: {
                 src="wallpaper.jpg"
                 alt="Background Image"
                 fill
-                objectFit="cover"
                 priority={true}
             />
             <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center">

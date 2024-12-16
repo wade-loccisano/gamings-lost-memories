@@ -4,6 +4,7 @@ import TwitterTimeline from "@/components/TwitterTimeline";
 import Link from "next/link";
 import getEpisodeData from "@/utils/episode-parser";
 import EpisodeCard from "@/components/EpisodeCard";
+import ListenOn from "@/components/ListenOn";
 
 export default async function Home({ searchParams }: {
   searchParams: Promise<{ query?: string }>
@@ -36,8 +37,7 @@ export default async function Home({ searchParams }: {
                     key={episode.id}
                     episode={episode}
                   ></EpisodeCard>
-                )
-                )}
+                ))}
               </div>
               <div className="text-center">
                 <Link href={`/episodes`}>
@@ -49,6 +49,7 @@ export default async function Home({ searchParams }: {
             </div>
             <div className="pt-2 lg:pt-0 col-span-1">
               <Contact></Contact>
+              <ListenOn></ListenOn>
               <TwitterTimeline></TwitterTimeline>
             </div>
           </div>

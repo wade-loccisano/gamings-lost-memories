@@ -12,7 +12,7 @@ const EpisodeCard = ({ episode }: {
                 <Link href={`/episode/${episode.slug}`}>
                     <Image
                         className="rounded-lg"
-                        src="logo.png" alt="logo" width={200} height={200} priority objectFit="cover" />
+                        src="logo.png" alt="logo" width={200} height={200} priority />
                 </Link>
             </div>
             <div className="flex flex-col px-2 py-4">
