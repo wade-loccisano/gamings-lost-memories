@@ -75,7 +75,7 @@ const Player = ({ episode }: {
             />
             <div className="px-2 flex">
                 <Image
-                    className="min-w-[200px] rounded-lg hidden lg:block"
+                    className="min-w-[200px] rounded-lg hidden xl:block"
                     src="logo.png" alt="logo" width={200} height={200} priority
                 />
                 <div className='w-full p-4'>
