@@ -1,4 +1,4 @@
-import RSSFeed from "@/public/rss2.json";
+import RSSFeed from "@/public/rss3.json";
 
 function formatTitle(input: string): string {
     // Remove "Episode X: " using regex
@@ -41,6 +41,7 @@ export interface EPISODE {
     description: string,
     src: string,
     length: number,
+    imageHref: string,
 }
 
 export default function getEpisodeData(slug = ""): EPISODE[] {
@@ -49,12 +50,13 @@ export default function getEpisodeData(slug = ""): EPISODE[] {
     episodes.forEach((episode) => {
         const newEpisode: EPISODE = {
             id: episode?.episode[0].__text,
-            title: episode.title[0].__cdata.toString(),
-            slug: formatTitle(episode.title[0].__cdata.toString()),
+            title: episode.title[0].toString(),
+            slug: formatTitle(episode.title[0].toString()),
             date: episode.pubDate,
-            description: episode.description.__cdata.replace(/<\/?p>/g, ""),
+            description: episode.description.replace(/<\/?p>/g, ""),
             src: episode.enclosure._url,
             length: parseInt(episode.duration.__text),
+            imageHref: episode.image._href,
         }
         
         episodeMap.set(newEpisode.slug, newEpisode);

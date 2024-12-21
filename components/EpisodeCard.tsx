@@ -9,11 +9,16 @@ const EpisodeCard = ({ episode }: {
     return (
         <div className='flex flex-col md:flex-row border rounded-lg w-full my-4 bg-[#fff] items-center'>
             <div className="min-w-[200px] px-2">
-                <Link href={`/episode/${episode.slug}`}>
-                    <Image
-                        className="rounded-lg"
-                        src="logo.png" alt="logo" width={200} height={200} priority />
-                </Link>
+                <div className='relative overflow-hidden'>
+                    <Link
+                        href={`/episode/${episode.slug}`}
+                        className=''
+                    >
+                        <Image
+                            className="rounded-lg"
+                            src={episode.imageHref} alt="poster image" width={200} height={200} priority />
+                    </Link>
+                </div>
             </div>
             <div className="flex flex-col px-2 py-4">
                 <div className="text-sm lg:text-md">
